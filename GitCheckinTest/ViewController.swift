@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var uImageView: UIImageView!
+    @IBOutlet weak var uLable: UILabel!
+    
+    @IBAction func newButtonPressed(_ sender: UIButton) {
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
